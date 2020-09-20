@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main
+{
+    position: fixed;
+    width: 100%;
+    text-shadow: 1px 1px 10px rgba(0,0,0,0.2);
+}
+
+.bgimg
+{
+    height: 90%;
+    width: 100%;
+    position: absolute;
+    background: url("./images/tree-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150%;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+.bgimg2
+{
+    height: 90%;
+    width: 100%;
+    position: absolute;
+    background: url("./images/solarpanels.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200%;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+.main-text
+{
+    height: 25vh;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-text h4
+{
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+}
+
+.sub-text 
+{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-text p
+{
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo
+{
+    font-family: 'Pacifico', sans-serif;
+    color: black;
+    font-size: 2rem;
+}
+
+.submit 
+{
+    display: flex;
+    width: 60%;
+    height: 30vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240,240,240);
+    border-radius: 50px;
+}
+
+.answer
+{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+footer
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar-brand
+{
+    margin-left: 20%;
+}
